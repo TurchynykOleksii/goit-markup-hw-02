@@ -1,0 +1,131 @@
+:root {
+  --accent-color: #2196f3;
+  --white-color: #f5f5f5;
+  --black-color: #000000;
+  --grey-color: #757575;
+  --grey-dark-color: #2f303a;
+  --grey-color-btn: #f5f4fa;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-releway: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--black-color);
+  box-sizing: border-box;
+}
+
+.header__phone {
+  color: var(--grey-color);
+}
+
+.header-active,
+.accent-text,
+.logo__accent-text {
+  color: var(--accent-color);
+}
+.header__logo,
+.footer__adress > a,
+.header__navigation_list li a,
+.header__contacts a,
+.jobs__cards a,
+.footer__adress_item a {
+  text-decoration: none;
+}
+
+.header__navigation_item a {
+  line-height: 1;
+}
+
+.header__navigation,
+.header__contacts,
+.footer__address {
+  font-size: 14px;
+}
+
+.header__navigation_list,
+.header__contacts,
+.jobs__filter,
+.jobs__cards,
+.footer__address_list {
+  list-style: none;
+}
+
+.header__logo,
+.footer__logo {
+  font-family: var(--font-releway);
+  font-size: 26px;
+  color: var(--black-color);
+  line-height: 1.1;
+}
+
+.header__navigation_list li a,
+.header__contacts a {
+  color: inherit;
+  line-height: 1.1;
+}
+
+.header__navigation_list li a:hover,
+.header__navigation_list li a:focus {
+  color: var(--accent-color);
+}
+
+.jobs__item button {
+  padding: 6px 22px;
+  font-weight: 500;
+  text-align: center;
+  background-color: var(--grey-color-btn);
+  border: none;
+  border-radius: 4px;
+  line-height: 1.6;
+  font-size: inherit;
+}
+
+.jobs__item button:hover,
+.jobs__item button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.jobs__headline {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--black-color);
+}
+.jobs__subline {
+  color: var(--grey-color);
+  line-height: 1.8;
+}
+.jobs__card {
+  border: 1px solid #eeeeee;
+}
+
+.footer {
+  background-color: var(--grey-dark-color);
+}
+
+.footer__adress_item a {
+  color: var(--white-color);
+  line-height: 1.7;
+}
+
+.footer__adress_item-grey a {
+  color: var(--grey-color);
+}
+.footer__address {
+  font-style: inherit;
+}
+
+.footer__adress_item a:hover,
+.footer__adress_item a:focus,
+.header__contacts a:hover,
+.header__contacts a:focus {
+  color: var(--accent-color);
+}
